@@ -9,7 +9,8 @@ from datetime import datetime
 
 from app.llm_service import LLMService
 
-from database import db
+from app.database import db
+
 
 # Load environment variables
 load_dotenv()
@@ -492,3 +493,4 @@ async def get_construction_updates():
 if __name__ == "__main__":
 
     uvicorn.run("main:app", host="0.0.0.0", port=8000, reload=True)
+
