@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+twilio
+groq
+elevenlabs
+pydantic
+python-multipart
+aiofiles
+requests
+ngrok
+mysql-connector-python
